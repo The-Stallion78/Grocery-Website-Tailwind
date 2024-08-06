@@ -6,8 +6,38 @@
   <link href="./output.css" rel="stylesheet">
 </head>
 <body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+  
+  <div class="container min-h-screen bg-[url('/images/image.png')] bg-center bg-cover px-28 py-5 relative">
+    <!-- Navigation Bar -->
+    <nav class="flex items-center">
+      <!-- Logo Image -->
+      <img src="/images/logo.png" alt="Logo Image" class="w-40 cursor-pointer">
+
+      <!-- Navigation Bar Features -->
+      <ul class="flex-1 text-center">
+        <li class="list-none inline-block px-5"><a href="#" class="no-underline text-white px-2 hover:text-blue-500 hover:font-bold">Home</a></li>
+        <li class="list-none inline-block px-5"><a href="#" class="no-underline text-white px-2 hover:text-blue-500 hover:font-bold">About</a></li>
+        <li class="list-none inline-block px-5"><a href="#" class="no-underline text-white px-2 hover:text-blue-500 hover:font-bold">Features</a></li>
+        <li class="list-none inline-block px-5"><a href="#" class="no-underline text-white px-2 hover:text-blue-500 hover:font-bold">Contact</a></li>
+      </ul>
+
+      <!-- cart image -->
+      <img src="/images/cart.png" alt="Cart Image" class="w-8 cursor-pointer">
+    </nav>
+
+    <!-- Main Content -->
+     <div class="text-white mt-48">
+      <h1 class="text-6xl font-semibold leading-normal text-orange-400 max-w-lg">Groceries<br>delivery in 15 mins</h1>
+      <p class="mt-5 hover:font-bold">Geocify offer a wide range of products, inluding fresh products, meats,<br>dairy, baked goods and non-perishable items.</p>
+
+      <!-- Buttons -->
+       <div class="mt-9">
+        <a href="#" class="bg-yellow-300 rounded-3xl py-3 font-bold px-3 text-black hover:bg-blue-400 mr-3 hover:bg-transparent hover:border-2 hover:border-sky-400 hover:text-white">Order Now</a>
+        <a href="#" class="bg-yellow-300 rounded-3xl py-3 font-bold px-3 text-black hover:bg-blue-400 hover:bg-transparent hover:border-2 hover:border-sky-400 hover:text-white" >Download App <span class="text-lg rotate-90 font-bold inline-block">&#10148;</span></a>
+       </div>
+       <img src="/images/grocery-image.png" alt="Grocery Store" class="w-full xl:w-1/2 xl:absolute bottom-0 right-10 xl:ml-5">
+     </div>
+  </div>
+
 </body>
 </html>
